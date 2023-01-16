@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Olá mundo! Eu sou {nome}!
+          Olá mundo! Eu sou {2 + 2}!
         </p>
         <a
           className={classTitulo}
