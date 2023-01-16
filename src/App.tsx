@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let nome = "Silvio";
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Olá mundo! Eu sou Silvio!
+          Olá mundo! Eu sou {nome}!
         </p>
         <a
           className="App-link"
