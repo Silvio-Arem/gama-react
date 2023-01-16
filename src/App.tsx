@@ -4,6 +4,8 @@ import './App.css';
 
 function App() {
   let nome = "Silvio";
+  let classTitulo = "titulo-vermelho";
+  let titulo = <h1>Oi</h1>
   return (
     <div className="App">
       <header className="App-header">
@@ -12,12 +14,12 @@ function App() {
           Olá mundo! Eu sou {nome}!
         </p>
         <a
-          className="App-link"
+          className={classTitulo}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {titulo}
         </a>
       </header>
     </div>
