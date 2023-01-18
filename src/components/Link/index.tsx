@@ -1,9 +1,14 @@
-import "./styles.css"
+import "./styles.css";
 
-export default function Link(props) {
+interface LinkProps {
+    texto: string;
+    redirect: string;
+}
+
+export default function Link(props: LinkProps) {
     return (
-        <a href="/contato" target="_blank">
-            Contato
+        <a href={props.redirect} target="_blank" rel="noreferrer">
+            {props.texto}
         </a>
-     )
+     );
 }
