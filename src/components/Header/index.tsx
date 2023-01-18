@@ -7,6 +7,8 @@ function Header() {
             <p>Din Din</p>
             <nav>
                 <Link />
+                <Link />
+                <Link />
             </nav>
         </header>
     );
