@@ -11,7 +11,7 @@ function App() {
           <h1> Educação Financeira é tudo de bom</h1>
           </Box>
         <Box background="escuro">
-        <h1> Educação Financeira é tudo de bom</h1>
+        <p>Teste</p>
         </Box>
       </main>
     </div>
