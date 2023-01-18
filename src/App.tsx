@@ -1,12 +1,15 @@
 import Header from "./components/Header";
+import Box from "./components/Box";
 import "./styles/global.css"
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <section></section>
-      <section></section>
+      <main>
+        <Box background="claro"/>
+        <Box background="escuro"/>
+      </main>
     </div>
   );
 }
