@@ -1,10 +1,13 @@
-import "./styles.css";
+import Link from "../Link";
 
+import "./styles.css";
 function Header() {
     return (
         <header>
             <p>Din Din</p>
-            <nav></nav>
+            <nav>
+                <Link />
+            </nav>
         </header>
     );
 }

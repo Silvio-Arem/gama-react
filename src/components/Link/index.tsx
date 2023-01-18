@@ -2,7 +2,7 @@ import "./styles.css"
 
 export default function Link() {
     return (
-        <a href="#" target="_blank">
+        <a href="/contato" target="_blank">
             Contato
         </a>
      )
