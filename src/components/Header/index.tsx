@@ -3,7 +3,8 @@ import "./styles.css";
 function Header() {
     return (
         <header>
-            <h1>Header</h1>
+            <p>Din Din</p>
+            <nav></nav>
         </header>
     );
 }
