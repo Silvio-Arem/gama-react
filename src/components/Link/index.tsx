@@ -8,7 +8,7 @@ interface LinkProps {
 
 export default function Link(props: LinkProps) {
     return (
-        <LinkRoute className="links-menu" to={props.redirect} rel="noreferrer">
+        <LinkRoute className="links-menu" to={props.redirect}>
             {props.texto}
         </LinkRoute>
     );

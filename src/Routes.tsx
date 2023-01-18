@@ -7,7 +7,7 @@ export default function Routes() {
         <BrowserRouter>
             <WraperRoutes>
                 <Route path="/" element={<Home />} />
-                <Route path="/contato" element={<Contato />} />
+                <Route path="/contato/:nome" element={<Contato />} />
             </WraperRoutes>
         </BrowserRouter>
     );
