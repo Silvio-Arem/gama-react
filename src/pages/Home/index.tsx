@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import Box from "../../components/Box";
-import Banner from "./assets/images/ilustra-banner.png"
-import "./styles/global.css"
+import Banner from "../../assets/images/ilustra-banner.png"
+import "../../styles/global.css"
 
 function Home() {
 
