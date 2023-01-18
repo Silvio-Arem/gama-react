@@ -5,5 +5,5 @@ interface BoxProps{
 }
 
 export default function Box(props: BoxProps) {
-    return (<section className="box"></section>);
+    return (<section className={`box ${props.background}`}></section>);
 }
