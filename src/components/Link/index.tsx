@@ -7,7 +7,7 @@ interface LinkProps {
 
 export default function Link(props: LinkProps) {
     return (
-        <a href={props.redirect} target="_blank" rel="noreferrer">
+        <a className="links-menu" href={props.redirect} target="_blank" rel="noreferrer">
             {props.texto}
         </a>
      );
