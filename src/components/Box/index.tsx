@@ -1,6 +1,9 @@
 import "./styles.css";
-export default Box() {
-    return (
-        <section className="box"></section>
-    );
+
+interface BoxProps{
+    background: string;
+}
+
+export default function Box(props: BoxProps) {
+    return (<section className="box"></section>);
 }
