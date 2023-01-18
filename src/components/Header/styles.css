@@ -1,3 +1,7 @@
 header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #2E948a;
+    padding: 15px;
 }
